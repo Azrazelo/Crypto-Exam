@@ -1,0 +1,65 @@
+await exchange.exchange(ethers.parseUnits("1", 18));
+await token1.approve("0x2Cc3ec6E1C0b91618882D012F4eAa7c803f8aA2E", ethers.parseUnits("1", 18));
+const token2 = await TokenTwo.attach("0x9cd87De3AC0dA384E4FB9F0C08955eee5338A566"); // TokenTwo contract address
+const TokenTwo = await ethers.getContractFactory("contracts/TokenTwo_Final.sol:TokenTwo");
+const token1 = await TokenOne.attach("0x306DB0fc340F348fb86f0017922177529e2b3d2F"); // TokenOne contract address
+const TokenOne = await ethers.getContractFactory("contracts/TokenOne_Final.sol:TokenOne");
+await token1.approve("0x2Cc3ec6E1C0b91618882D012F4eAa7c803f8aA2E", ethers.parseUnits("1", 18));
+const exchange = await Exchange.attach("0x2Cc3ec6E1C0b91618882D012F4eAa7c803f8aA2E");
+const Exchange = await ethers.getContractFactory("contracts/exchange.sol:Exchange");
+const Exchange = await ethers.getContractFactory("contracts/Exchange.sol:Exchange");
+await token1.approve("0x2Cc3ec6E1C0b91618882D012F4eAa7c803f8aA2E", ethers.parseUnits("1", 18));
+const token1 = await TokenOne.attach("0x306DB0fc340F348fb86f0017922177529e2b3d2F"); // TokenOne contract address
+const TokenOne = await ethers.getContractFactory("contracts/TokenOne_Final.sol:TokenOne");
+console.log("✅ Sent 10 TokenTwo to Exchange on Sepolia!");
+await token2.transfer("0x2Cc3ec6E1C0b91618882D012F4eAa7c803f8aA2E", ethers.parseUnits("10", 18));
+const token2 = await TokenTwo.attach("0x9cd87De3AC0dA384E4FB9F0C08955eee5338A566"); // TokenTwo contract address
+const TokenTwo = await ethers.getContractFactory("contracts/TokenTwo_Final.sol:TokenTwo");
+console.log("✅ Swap successful!");
+await exchange.exchange(ethers.parseUnits("1", 18));
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"); // Exchange contract address
+const Exchange = await ethers.getContractFactory("Exchange");
+console.log("✅ Swap successful!");
+await exchange.exchange(ethers.parseUnits("1", 18));
+console.log("✅ Approved 10 TokenOne for swapping.");
+await token1.approve("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0", ethers.parseUnits("10", 18));
+const token1 = await TokenOne.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3"); // TokenOne contract address
+const TokenOne = await ethers.getContractFactory("contracts/TokenOne_Final.sol:TokenOne");
+console.log("✅ Swap successful!");
+await exchange.exchange(ethers.parseUnits("1", 18));
+console.log("✅ Approved 1 TokenOne for swapping.");
+await token1.approve("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0", ethers.parseUnits("1", 18));
+const token1 = await TokenOne.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3"); // TokenOne contract address
+const TokenOne = await ethers.getContractFactory("contracts/TokenOne_Final.sol:TokenOne");
+console.log("✅ Approved 1 TokenOne for swapping.");
+await token1.approve("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0", ethers.parseUnits("1", 18));
+const token1 = await TokenOne.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3"); // TokenOne contract address
+>const TokenOne = await ethers.getContractFactory("contracts/TokenOne_Final.sol:TokenOne");
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"); // Exchange contract address
+const Exchange = await ethers.getContractFactory("Exchange");
+console.log("Exchange contract Token2 balance:", exchangeBalance.toString());
+const exchangeBalance = await token2.balanceOf("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"); // Exchange contract address
+const token2 = await TokenTwo.attach("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"); // TokenTwo contract address
+const TokenTwo = await ethers.getContractFactory("contracts/TokenTwo_Final.sol:TokenTwo");
+await exchange.exchange(ethers.parseUnits("1", 18));
+await token2.transfer("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0", ethers.parseUnits("10", 18));
+console.log("Exchange contract Token2 balance:", exchangeBalance.toString());
+const exchangeBalance = await token2.balanceOf("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const token2 = await TokenTwo.attach("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+const TokenTwo = await ethers.getContractFactory("contracts/TokenTwo_Final.sol:TokenTwo");
+console.log("Exchange contract Token2 balance:", exchangeBalance.toString());
+const exchangeBalance = await token2.balanceOf("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const token2 = await TokenTwo.attach("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"); // New TokenTwo address
+const TokenTwo = await ethers.getContractFactory("TokenTwo");
+await exchange.exchange(ethers.parseUnits("1", 18)); // Swap 1 token
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const Exchange = await ethers.getContractFactory("Exchange");
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const Exchange = await ethers.getContractFactory("Exchange");
+await exchange.exchange(ethers.parseUnits("1", 18));
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const Exchange = await ethers.getContractFactory("contracts/exchange.sol:Exchange");
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const exchange = await Exchange.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+const Exchange = await ethers.getContractFactory("contracts/exchange.sol:Exchange");
+const Exchange = await ethers.getContractFactory("Exchange");
